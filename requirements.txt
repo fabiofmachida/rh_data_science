@@ -1,4 +1,4 @@
-datetime==2.8.2
+python-dateutil==2.8.2
 streamlit==1.21.0
 pandas==1.5.3
 streamlit-folium==0.11.1
