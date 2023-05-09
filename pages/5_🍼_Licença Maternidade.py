@@ -21,7 +21,7 @@ st.sidebar.markdown('# Rh Data Science')
 st.sidebar.markdown("""----""")
 
 # Lê o arquivo de texto em um DataFrame
-uploaded_file = st.sidebar.file_uploader("Escolha um arquivo em texto", type=["txt"])
+uploaded_file = st.sidebar.file_uploader("Escolha um arquivo em texto", type=["txt"], disabled=True)
 
 # Se o usuário fez upload de um arquivo
 if uploaded_file is not None:
